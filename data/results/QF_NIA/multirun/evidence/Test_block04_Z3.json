@@ -1,0 +1,3624 @@
+{
+ "meta": {
+  "strategy": "Z3",
+  "dataset": "Test",
+  "block": 4,
+  "n_files": 600,
+  "solved": 376,
+  "total": 600,
+  "solve_rate": 62.67,
+  "par2": 4906238.4,
+  "avg_time_ms": 1133.61,
+  "median_time_ms": 162.32,
+  "sat": 252,
+  "unsat": 124,
+  "timeout": 224,
+  "error": 0,
+  "start_time": "2026-03-05T11:26:27.884970",
+  "end_time": "2026-03-05T11:37:40.377686",
+  "duration_s": 672.5,
+  "workers": 4
+ },
+ "instances": [
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\CInteger\\Stroeder_15__Benghazi_true-termination.c__p20729_terminationG_0.smt2",
+   "status": "sat",
+   "time_ms": 4.409299999679206,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\CInteger\\Stroeder_15__BradleyMannaSipma-CAV2005-Fig1_true-termination.c__p20785_terminationG_0.smt2",
+   "status": "sat",
+   "time_ms": 53.37920000056329,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\CInteger\\Stroeder_15__4NestedWith3Variables_true-termination.c__p20253_terminationG_0.smt2",
+   "status": "sat",
+   "time_ms": 347.3929000010685,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\CInteger\\Stroeder_15__ChenFlurMukhopadhyay-SAS2012-Ex2.12_false-termination.c__p21376_terminationG_0.smt2",
+   "status": "sat",
+   "time_ms": 397.1516999990854,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\CInteger\\Stroeder_15__AlternDivWidening.c__p20651_terminationG_0.smt2",
+   "status": "unsat",
+   "time_ms": 1420.3784000001178,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\CInteger\\Stroeder_15__ChenFlurMukhopadhyay-SAS2012-Ex2.14_false-termination.c__p21456_edge_closing_0.smt2",
+   "status": "sat",
+   "time_ms": 1007.7975000003789,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\CInteger\\Stroeder_15__ChenFlurMukhopadhyay-SAS2012-Ex2.11_false-termination.c__p21319_terminationG_0.smt2",
+   "status": "sat",
+   "time_ms": 2456.692900001144,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\CInteger\\Stroeder_15__ChenFlurMukhopadhyay-SAS2012-Ex3.06_false-termination.c__p22005_terminationG_0.smt2",
+   "status": "sat",
+   "time_ms": 2651.778800000102,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\CInteger\\Stroeder_15__AliasDarteFeautrierGonnord-SAS2010-nestedLoop_true-termination.c__p20453_terminationG_0.smt2",
+   "status": "sat",
+   "time_ms": 4875.804100000096,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\CInteger\\Stroeder_15__GulwaniJainKoskinen-PLDI2009-Fig1_true-termination.c__p23281_edge_closing_0.smt2",
+   "status": "sat",
+   "time_ms": 263.728900001297,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\CInteger\\Stroeder_15__GulwaniJainKoskinen-PLDI2009-Fig1_true-termination.c__p23716_edge_closing_0.smt2",
+   "status": "sat",
+   "time_ms": 809.6991000002163,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\CInteger\\Stroeder_15__ChenFlurMukhopadhyay-SAS2012-Ex3.03_true-termination.c__p21795_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\CInteger\\Stroeder_15__Cousot.c__p22456_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\CInteger\\Stroeder_15__Lcm.c__p23947_terminationG_0.smt2",
+   "status": "sat",
+   "time_ms": 1048.4073999996326,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\CInteger\\Stroeder_15__GCD2.c__p23126_edge_closing_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\CInteger\\Stroeder_15__Middle.c__p24289_terminationG_0.smt2",
+   "status": "unsat",
+   "time_ms": 688.2239999995363,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\CInteger\\Stroeder_15__GulwaniJainKoskinen-PLDI2009-Fig1_true-termination.c__p23774_edge_closing_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\CInteger\\Stroeder_15__GulwaniJainKoskinen-PLDI2009-Fig1_true-termination.c__p23796_edge_closing_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\CInteger\\Stroeder_15__NonTerminationSimple4_false-termination.c__p25066_terminationG_0.smt2",
+   "status": "unsat",
+   "time_ms": 184.95739999889338,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\CInteger\\Stroeder_15__PodelskiRybalchenko-VMCAI2004-Ex2_true-termination.c__p25479_terminationG_0.smt2",
+   "status": "unsat",
+   "time_ms": 6.0851999987789895,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\CInteger\\Stroeder_15__Pure3Phase_true-termination.c__p25546_terminationG_0.smt2",
+   "status": "sat",
+   "time_ms": 1533.0562999988615,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\CInteger\\Stroeder_15__LeikeHeizmann-WST2014-Ex5_false-termination.c__p24049_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\CInteger\\Stroeder_15__Urban-WST2013-Fig2-modified1000_true-termination.c__term_unfeasibility_0_0.smt2",
+   "status": "unsat",
+   "time_ms": 4.534600000624778,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\CInteger\\Stroeder_15__WhilePart.c__p26473_safety_0.smt2",
+   "status": "unsat",
+   "time_ms": 277.64530000058585,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\CInteger\\Stroeder_15__svcomp_ex2.c__p25801_terminationG_0.smt2",
+   "status": "sat",
+   "time_ms": 12.096299999029725,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\CInteger\\Stroeder_15__TrueDiv.c__p26153_terminationG_0.smt2",
+   "status": "unsat",
+   "time_ms": 834.799700000076,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\CInteger\\Stroeder_15__svcomp_ex2.c__p25962_terminationG_0.smt2",
+   "status": "unsat",
+   "time_ms": 1057.4739999992744,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\CInteger\\Stroeder_15__MirrorIntervSim.c__p24484_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\CInteger\\Ton_Chanh_15__Copenhagen_disj_true-termination.c__p26775_terminationG_0.smt2",
+   "status": "unsat",
+   "time_ms": 32.992899999953806,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\CInteger\\Stroeder_15__NO_03.c__p24634_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\CInteger\\Ton_Chanh_15__Hanoi_3vars_false-termination.c__p26966_terminationG_0.smt2",
+   "status": "sat",
+   "time_ms": 1085.0596000000223,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\CInteger\\Ton_Chanh_15__Hanoi_plus_false-termination.c__p27092_terminationG_0.smt2",
+   "status": "sat",
+   "time_ms": 522.0654000004288,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\CInteger\\Ton_Chanh_15__Hanoi_plus_false-termination.c__p27189_terminationG_0.smt2",
+   "status": "unsat",
+   "time_ms": 319.1683999993984,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\CInteger\\Stroeder_15__svcomp_ex2.c__p25908_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\CInteger\\Ton_Chanh_15__Mysore_false-termination.c__p27282_terminationG_0.smt2",
+   "status": "unsat",
+   "time_ms": 28.180199999042088,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\CInteger\\Ton_Chanh_15__Bangalore_false-termination.c__p26582_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\CInteger\\Ton_Chanh_15__Hanoi_plus_false-termination.c__p27207_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\CInteger\\Ton_Chanh_15__Hanoi_plus_false-termination.c__p27217_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__Alternate.jar-obl-10__terminationS_6_0.smt2",
+   "status": "unsat",
+   "time_ms": 401.0058999992907,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__Count.jar-obl-10-2__term_unfeasibility_0_0.smt2",
+   "status": "unsat",
+   "time_ms": 750.4109000001336,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__Count.jar-obl-10-2__p28114_terminationG_0.smt2",
+   "status": "sat",
+   "time_ms": 5792.192900000373,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__Distances.jar-obl-19__terminationS_7_0.smt2",
+   "status": "unsat",
+   "time_ms": 783.9500999998563,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__DivMinus.jar-obl-11__p28476_terminationG_0.smt2",
+   "status": "sat",
+   "time_ms": 522.2555000000284,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\CInteger\\Ton_Chanh_15__Singapore_plus_false-termination.c__p27326_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\CInteger\\Ton_Chanh_15__Singapore_plus_false-termination.c__p27334_edge_closing_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__Distances.jar-obl-19__p28458_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__Domino.jar-obl-27__p28687_terminationG_0.smt2",
+   "status": "sat",
+   "time_ms": 125.90730000010808,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__DivMinus.jar-obl-11__p28559_edge_closing_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__DivTernary.jar-obl-10__p28667_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__Et4-rec.jar-obl-8__terminationS_0_0.smt2",
+   "status": "unsat",
+   "time_ms": 64.06670000069425,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__DivTernary2.jar-obl-9__p28623_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__Domino.jar-obl-27__p28695_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__Et3.jar-obl-9__p28812_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__FlattenTreeListRec.jar-obl-10__p29569_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 34.35259999969276,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__Flatten.jar-obl-10__p29407_edge_closing_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__Graph.jar-obl-17__p29760_edge_closing_0.smt2",
+   "status": "sat",
+   "time_ms": 326.1296000000584,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__LessLeaves.jar-obl-10__p9986_terminationG_0.smt2",
+   "status": "sat",
+   "time_ms": 42.70439999891096,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__FlattenTree.jar-obl-9__p29527_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__MainDelete.jar-obl-10__p10460_terminationG_0.smt2",
+   "status": "sat",
+   "time_ms": 63.981899998907465,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__MainFind.jar-obl-10__p10595_terminationG_0.smt2",
+   "status": "sat",
+   "time_ms": 58.27250000038475,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__Main.jar-obl-11__terminationS_32_0.smt2",
+   "status": "unsat",
+   "time_ms": 1669.9124999995547,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__MainFind.jar-obl-10__p10614_edge_closing_0.smt2",
+   "status": "sat",
+   "time_ms": 1970.3773000001092,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__FlattenTreeListRec.jar-obl-10__p29555_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__Matrix.jar-obl-16__term_unfeasibility_4_0.smt2",
+   "status": "unsat",
+   "time_ms": 50.24500000035914,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__Matrix.jar-obl-16__p10847_edge_closing_0.smt2",
+   "status": "sat",
+   "time_ms": 1825.8148999993864,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__NO_10.jar-obl-8__p11307_terminationG_0.smt2",
+   "status": "unsat",
+   "time_ms": 32.27040000092529,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__MirrorBinTreeRec.jar-obl-9__terminationS_2_0.smt2",
+   "status": "unsat",
+   "time_ms": 1856.0574000002816,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__NO_11.jar-obl-8__p11350_terminationG_0.smt2",
+   "status": "unsat",
+   "time_ms": 887.9797999998118,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__NO_12.jar-obl-8__terminationS_0_0.smt2",
+   "status": "unsat",
+   "time_ms": 63.84849999994913,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__List.jar-obl-12__p10195_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__Matrix.jar-obl-16__p10817_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__SharingPair.jar-obl-8__p12035_edge_closing_0.smt2",
+   "status": "sat",
+   "time_ms": 93.29040000011446,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__NO_12.jar-obl-8__p11368_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__Power.jar-obl-10__p11787_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__SharingPair.jar-obl-8__p12026_edge_closing_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__SortCount.jar-obl-10__terminationQ_1_0.smt2",
+   "status": "sat",
+   "time_ms": 159.47150000101828,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__SortCount.jar-obl-10__p12101_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__SortCount.jar-obl-10__terminationS_3_0.smt2",
+   "status": "unsat",
+   "time_ms": 1971.2973999994574,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__SortCount.jar-obl-10__p12137_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__SortCount.jar-obl-10__p12142_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__Test4.jar-obl-10__terminationS_24_0.smt2",
+   "status": "unsat",
+   "time_ms": 2422.6261999992857,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__TaylorSeriesRec.jar-obl-13__p12570_terminationG_0.smt2",
+   "status": "sat",
+   "time_ms": 7737.812100000156,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__TaylorSeriesIte.jar-obl-13__p12483_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__TriTas.jar-obl-12__p13039_terminationG_0.smt2",
+   "status": "unsat",
+   "time_ms": 1360.7612000014342,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__Test4.jar-obl-10__terminationS_5_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__Test6.jar-obl-13__terminationS_42_0.smt2",
+   "status": "unsat",
+   "time_ms": 8147.165099999256,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__Velroyen08-ex01.jar-obl-8__p13568_terminationG_0.smt2",
+   "status": "unsat",
+   "time_ms": 537.8136999988783,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__Velroyen08-ex04.jar-obl-8__terminationQ_2_0.smt2",
+   "status": "unsat",
+   "time_ms": 9.79159999951662,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__Test7.jar-obl-11__p12937_edge_closing_0.smt2",
+   "status": "sat",
+   "time_ms": 6870.277800000622,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__Velroyen08-ex02.jar-obl-8__p13599_terminationG_0.smt2",
+   "status": "unsat",
+   "time_ms": 1956.756999999925,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__Velroyen08-marbie1.jar-obl-8__p14150_terminationG_0.smt2",
+   "status": "unsat",
+   "time_ms": 68.4278999997332,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__Velroyen08-mirrorInterv.jar-obl-8__p14288_edge_closing_0.smt2",
+   "status": "sat",
+   "time_ms": 317.3643999998603,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__Velroyen08-mirrorIntervSim.jar-obl-8__p14313_terminationG_0.smt2",
+   "status": "sat",
+   "time_ms": 4.089799998837407,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__Velroyen08-alternDivWidening.jar-obl-8__p13247_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__Velroyen08-factorial.jar-obl-8__p13795_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__Velroyen08-factorial.jar-obl-8__p13821_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__ex03_rec.jar-obl-8__p29149_terminationG_0.smt2",
+   "status": "unsat",
+   "time_ms": 15.266500000507222,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__cousot_rec.jar-obl-8__p28297_terminationG_0.smt2",
+   "status": "unsat",
+   "time_ms": 756.8680999993376,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreate.jar-obl-10__p4467_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 190.71160000021337,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreate.jar-obl-10__p4524_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 120.48820000018168,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreate.jar-obl-10__p4570_safety_0.smt2",
+   "status": "unsat",
+   "time_ms": 865.9762999996019,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__Velroyen08-narrowing.jar-obl-8__p14385_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__alternKonv_rec.jar-obl-8__p27640_edge_closing_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreate.jar-obl-10__p4659_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 75.65160000012838,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreate.jar-obl-10__p4755_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 393.2062000003498,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreate.jar-obl-10__p4592_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 5593.391400001565,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreate.jar-obl-10__p4815_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 367.42709999998624,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreate.jar-obl-10__p4648_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 6468.456099999457,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreate.jar-obl-10__p4920_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 561.4604000002146,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreate.jar-obl-10__p4456_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 9708.610699999554,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreate.jar-obl-10__p4873_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 2380.811700000777,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreate.jar-obl-10__p4967_safety_0.smt2",
+   "status": "unknown",
+   "time_ms": 252.37509999897156,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateClear.jar-obl-11__p30165_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 2279.7697999994853,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreate.jar-obl-10__p4819_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateClear.jar-obl-11__p30395_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 206.83680000001914,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateClear.jar-obl-11__p30573_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 64.26959999953397,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreate.jar-obl-10__p5364_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 8257.527100000516,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateClear.jar-obl-11__terminationS_2_0.smt2",
+   "status": "unsat",
+   "time_ms": 103.90010000082839,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateContainsKey.jar-obl-11__p30908_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 95.20850000080827,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreate.jar-obl-10__p4943_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 9532.62309999991,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateContainsKey.jar-obl-11__p30943_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 844.5281000003888,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateContainsKey.jar-obl-11__p30960_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 548.8604000001942,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateClear.jar-obl-11__p30269_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateClear.jar-obl-11__p30709_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateContainsKey.jar-obl-11__p31270_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 280.6858999992983,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateContainsKey.jar-obl-11__p30951_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateContainsKey.jar-obl-11__p31161_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateContainsKey.jar-obl-11__p31239_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateContainsKey.jar-obl-11__p31605_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 4907.698299999538,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateContainsValue.jar-obl-11__p32111_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 1139.0393000001495,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateContainsValue.jar-obl-11__p32158_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 1187.155800000255,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateContainsValue.jar-obl-11__p32211_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 304.96839999977965,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateContainsKey.jar-obl-11__p31320_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateContainsKey.jar-obl-11__p31520_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateContainsValue.jar-obl-11__p32037_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateContainsValue.jar-obl-11__p32278_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateContainsValue.jar-obl-11__p32309_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateContainsValue.jar-obl-11__p32318_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateContainsValue.jar-obl-11__p32418_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 3092.6099000007525,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateContainsValue.jar-obl-11__p32334_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateContainsValue.jar-obl-11__p32673_safety_0.smt2",
+   "status": "unsat",
+   "time_ms": 545.6629999989673,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateContainsValue.jar-obl-11__p32627_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 5993.682100001024,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateContainsValue.jar-obl-11__p32386_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateContainsValue.jar-obl-11__p32515_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateContainsValue.jar-obl-11__p378_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 1714.7507999998197,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateIsEmpty.jar-obl-10__p1761_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 141.037099998357,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateIsEmpty.jar-obl-10__p2266_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 510.94319999901927,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateContainsValue.jar-obl-11__p392_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 3509.486000000834,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateContainsValue.jar-obl-11__p32733_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 9146.175400001084,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateIsEmpty.jar-obl-10__p2336_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 1121.1416000005556,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateIsEmpty.jar-obl-10__p1580_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateIsEmpty.jar-obl-10__p2279_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateIsEmpty.jar-obl-10__terminationS_3_0.smt2",
+   "status": "unsat",
+   "time_ms": 123.84630000087782,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateIsEmpty.jar-obl-10__p2290_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateIteratorEntryLoop.jar-obl-12__p2988_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 1710.370899998452,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateIsEmpty.jar-obl-10__p2469_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateIsEmpty.jar-obl-10__p2625_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateIteratorEntryLoop.jar-obl-12__p3353_safety_0.smt2",
+   "status": "unsat",
+   "time_ms": 682.5004999991506,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateIteratorEntryLoop.jar-obl-12__p2967_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreatePut.jar-obl-10__p5618_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 60.20429999989574,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreatePut.jar-obl-10__p5804_safety_0.smt2",
+   "status": "unsat",
+   "time_ms": 618.291799999497,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreatePut.jar-obl-10__p5841_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 1589.3426000002364,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateIteratorEntryLoop.jar-obl-12__p3002_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateIteratorEntryLoop.jar-obl-12__p3126_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreatePut.jar-obl-10__p5885_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 1008.0873999995674,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreatePut.jar-obl-10__p5945_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 1353.3867000005557,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreatePut.jar-obl-10__p6039_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 1158.9837000010448,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreatePut.jar-obl-10__p6178_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 90.25169999949867,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreatePut.jar-obl-10__terminationS_0_0.smt2",
+   "status": "unsat",
+   "time_ms": 360.84389999996347,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateRemove.jar-obl-11__p6612_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 523.5972000009497,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateRemove.jar-obl-11__p6616_safety_0.smt2",
+   "status": "unsat",
+   "time_ms": 752.0067999994353,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateRemove.jar-obl-11__p6666_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 117.39870000019437,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreatePut.jar-obl-10__p5563_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateRemove.jar-obl-11__p6722_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 95.51340000143682,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreatePut.jar-obl-10__p5865_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateRemove.jar-obl-11__p6723_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 3126.018799999656,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreatePut.jar-obl-10__p5914_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateRemove.jar-obl-11__p6968_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 34.157200001573074,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateRemove.jar-obl-11__p6947_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 1755.6589000014355,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateRemove.jar-obl-11__p6683_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateSize.jar-obl-10__p7440_safety_0.smt2",
+   "status": "unsat",
+   "time_ms": 2341.044699998747,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateRemove.jar-obl-11__p6789_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateSize.jar-obl-10__p7037_terminationG_0.smt2",
+   "status": "sat",
+   "time_ms": 9167.331900000136,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateSize.jar-obl-10__p7602_safety_0.smt2",
+   "status": "unsat",
+   "time_ms": 693.6924000001454,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateSize.jar-obl-10__p7202_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juLinkedListCreateAddAll.jar-obl-11__p9470_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 76.53100000061386,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateSize.jar-obl-10__p7541_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 5814.623899999788,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juLinkedListCreateAddAll.jar-obl-11__terminationQ_5_0.smt2",
+   "status": "sat",
+   "time_ms": 87.03570000034233,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juLinkedListCreateAddAllAt.jar-obl-17__p7745_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 33.41709999949671,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juLinkedListCreateAddAllAt.jar-obl-17__p7858_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 282.77630000047793,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateSize.jar-obl-10__p7590_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juHashMapCreateSize.jar-obl-10__p7616_edge_closing_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juLinkedListCreateAddAllAt.jar-obl-17__p7939_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 2146.185100000366,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juLinkedListCreateAddAll.jar-obl-11__p9593_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juLinkedListCreateAddAllAt.jar-obl-17__p8057_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 671.5260999990278,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juLinkedListCreateAddAllAt.jar-obl-17__p8179_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 791.1545000006299,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juLinkedListCreateAddAllAt.jar-obl-17__p7864_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juLinkedListCreateAddAllAt.jar-obl-17__p8026_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 6862.17139999826,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juLinkedListCreateAddAllAt.jar-obl-17__p8355_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 77.24960000086867,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juLinkedListCreateAddAllAt.jar-obl-17__p8489_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 299.4466000000102,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juLinkedListCreateAddAllAt.jar-obl-17__p8699_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 876.1881999998877,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juLinkedListCreateAddAllAt.jar-obl-17__p8068_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juLinkedListCreateAddAllAt.jar-obl-17__p8746_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 50.37449999872479,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juLinkedListCreateAddAllAt.jar-obl-17__p8777_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 187.0452999992267,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juLinkedListCreateAddAllAt.jar-obl-17__p8238_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juLinkedListCreateAddAllAt.jar-obl-17__p8803_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 766.4925000008225,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juLinkedListCreateAddAllAt.jar-obl-17__p8278_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juLinkedListCreateAddAllAt.jar-obl-17__p9137_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 211.14529999977094,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juLinkedListCreateAddAllAt.jar-obl-17__p9227_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 71.17579999976442,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juLinkedListCreateAddAllAt.jar-obl-17__p8974_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 1589.2249000007723,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juLinkedListCreateAddAllAt.jar-obl-17__p9268_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 22.913100001460407,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juLinkedListCreateAddAllAt.jar-obl-17__p9315_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 801.6669999997248,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juLinkedListCreateAddAllAt.jar-obl-17__p9241_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 2633.1872999999177,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juLinkedListCreateAddAllAt.jar-obl-17__p8715_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juLinkedListCreateContainsAll.jar-obl-11__terminationS_30_0.smt2",
+   "status": "unsat",
+   "time_ms": 6949.83560000037,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juLinkedListCreateRemoveLastOccurrence.jar-obl-16__term_unfeasibility_5_0.smt2",
+   "status": "unsat",
+   "time_ms": 233.40360000111104,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juLinkedListCreateAddAllAt.jar-obl-17__p8962_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__mirrorInterv_rec.jar-obl-8__p10945_edge_closing_0.smt2",
+   "status": "sat",
+   "time_ms": 445.9126000001561,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__narrowing_rec.jar-obl-8__terminationS_0_0.smt2",
+   "status": "unsat",
+   "time_ms": 94.44020000046294,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__2.t2__p15343_terminationG_0.smt2",
+   "status": "unsat",
+   "time_ms": 180.51909999849158,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__mirrorInterv_rec.jar-obl-8__p10926_terminationG_0.smt2",
+   "status": "sat",
+   "time_ms": 4090.5046000007133,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juLinkedListCreateRemoveAll.jar-obl-11__p9811_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_AProVE_2014__juLinkedListCreateRemoveAll.jar-obl-11__terminationS_24_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__Prim_4.t2__p8061_terminationG_0.smt2",
+   "status": "sat",
+   "time_ms": 6481.700899999851,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__Prim_4.t2__p7956_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__afagp-fail.t2_fixed__p15419_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__afagp-fail.t2_fixed__p15445_edge_closing_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__apchild-accepted.t2__terminationQ_9_0.smt2",
+   "status": "sat",
+   "time_ms": 2053.652599999623,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__apchild-accepted.t2__terminationS_12_0.smt2",
+   "status": "unsat",
+   "time_ms": 967.2663999990618,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__agafp.t2__p15588_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__apchild-accepted-fail.t2__p15979_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__apchild-accepted-fail.t2_fixed__p15902_edge_closing_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__apchild-live.t2__p16628_terminationG_0.smt2",
+   "status": "sat",
+   "time_ms": 1165.8875000011903,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__apchild-accepted.t2_fixed__terminationS_2_0.smt2",
+   "status": "unsat",
+   "time_ms": 6600.798100000247,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__apchild-accepted.t2_fixed__p16136_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__apchild-accepted.t2_fixed__p16179_edge_closing_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__bakery.t2__p17037_terminationG_0.smt2",
+   "status": "unsat",
+   "time_ms": 305.08999999983644,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__apchildlive-succeed.t2_fixed__terminationQ_1_0.smt2",
+   "status": "sat",
+   "time_ms": 2749.6728999994957,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__brp_withassume.t2__terminationS_27_0.smt2",
+   "status": "unsat",
+   "time_ms": 4021.676899999875,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__apchild-live.t2_fixed__p16596_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__apchildlive-succeed.t2__p16456_edge_closing_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__brp_withassume.t2__term_unfeasibility_0_0.smt2",
+   "status": "sat",
+   "time_ms": 7237.148999998681,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__byron-4.t2__p17603_terminationG_0.smt2",
+   "status": "unsat",
+   "time_ms": 175.933200000145,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__brp_withassume.t2__terminationS_31_0.smt2",
+   "status": "unsat",
+   "time_ms": 4224.619500000699,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__bs.t2_fixed__p17456_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__byron-4.t2__p17549_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__byron-4.t2__p17680_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__consts2.t2__p18097_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__db3.t2_fixed__terminationS_20_0.smt2",
+   "status": "unsat",
+   "time_ms": 4479.312400000708,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__dead.neg-st88b-succeed.t2__p18801_terminationG_0.smt2",
+   "status": "unsat",
+   "time_ms": 612.6857999988715,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__db2.t2_fixed__p18729_edge_closing_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__e-1394complete-fail.t2__p19267_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 309.4912000015029,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__db3.t2_fixed__p18755_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__db3.t2_fixed__p18760_edge_closing_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__edn.t2__p19923_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 6010.338300000512,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__destroy_seg_leak.t2_fixed__p18851_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__edn.t2__p20524_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 66.33090000104858,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__eric1.t2__p22008_edge_closing_0.smt2",
+   "status": "sat",
+   "time_ms": 220.2618999999686,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__edn.t2__p19937_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__edn.t2__p20326_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__edn.t2__p20490_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 6390.132500000618,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__ex10.t2__p22117_edge_closing_0.smt2",
+   "status": "sat",
+   "time_ms": 3502.9410000006465,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__ex16.t2__p22268_terminationG_0.smt2",
+   "status": "unsat",
+   "time_ms": 1260.8717000002798,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__ex36.t2__p25676_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 149.58560000013676,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__ex36.t2__p26154_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 99.44949999953678,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__ex36.t2__p27770_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 37.452399999892805,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__ex36.t2__p28435_safety_0.smt2",
+   "status": "unsat",
+   "time_ms": 81.08200000060606,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__eric2.t2__p22032_edge_closing_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__ex36.t2__p29211_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 2867.2109999988606,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__ex16.t2__p22239_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__ex36.t2__p29807_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 264.3140999989555,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__ex36.t2__p31428_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 27.896999999939,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__ex16.t2__p22244_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__ex36.t2_fixed__p22849_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 33.13290000005509,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__ex36.t2_fixed__p22941_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 39.803900001061265,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__ex36.t2_fixed__p23641_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 8.859000001393724,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__fast_poll.t2__term_unfeasibility_1_0.smt2",
+   "status": "sat",
+   "time_ms": 314.7570999990421,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__ex36.t2__p29444_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 7746.135200000936,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__ex36.t2__p29611_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 8575.10579999871,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__florian_sas2.t2__terminationQ_3_0.smt2",
+   "status": "sat",
+   "time_ms": 162.32409999975062,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__firewire.t2__terminationS_29_0.smt2",
+   "status": "unsat",
+   "time_ms": 1916.5960000009363,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__florian_sumit.t2__p32428_terminationG_0.smt2",
+   "status": "sat",
+   "time_ms": 1339.0759999983857,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__florian_sumit.t2__p32451_edge_closing_0.smt2",
+   "status": "unsat",
+   "time_ms": 865.174599999591,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__florian_sumit.t2__p32429_terminationG_0.smt2",
+   "status": "sat",
+   "time_ms": 2167.725600000267,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__ex36.t2__p31599_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__firewire.t2__p32283_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__fourn.c.i.fourn.pl.t2.fixed.t2__p32601_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__fourn.t2__p32712_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__fun1b.t2__terminationS_2_0.smt2",
+   "status": "unsat",
+   "time_ms": 1794.2986999987625,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__fun1.t2__p810_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__fun1b.t2__p671_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__fun9.t2__p1241_edge_closing_0.smt2",
+   "status": "sat",
+   "time_ms": 3439.96419999894,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__fun1b.t2_fixed__p562_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__fun6.t2__p1103_edge_closing_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__fun9.t2__p1293_edge_closing_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__hqr.c.i.hqr.pl.t2.fixed.t2__terminationS_43_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__hqr.c.i.hqr.pl.t2.nor.t2.rlgfixed.t2__terminationS_40_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__hqr.c.i.hqr.pl.t2.nor.t2.rlgfixed.t2_fixed__terminationS_59_0.smt2",
+   "status": "unsat",
+   "time_ms": 5926.5660000000935,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__hqr.c.i.hqr.pl.t2.nor.t2.rlgfixed.t2_fixed__p1669_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__java_Recursions.c.t2__p2530_terminationG_0.smt2",
+   "status": "sat",
+   "time_ms": 55.199499998707324,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__magic.t2__term_unfeasibility_2_0.smt2",
+   "status": "unsat",
+   "time_ms": 30.339400000229944,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__mc91.t2__p2891_terminationG_0.smt2",
+   "status": "unsat",
+   "time_ms": 726.1758000004193,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__hqr.c.i.hqr.pl.t2.nor.t2.rlgfixed.t2_fixed__terminationS_18_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__mc91.t2__p2896_terminationG_0.smt2",
+   "status": "unsat",
+   "time_ms": 348.98229999998875,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__hqr.t2_fixed__p1756_edge_closing_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__janne_complex.t2_fixed__p2009_edge_closing_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__mc91.t2__p2913_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__mc91test.t2__p3074_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__mc91test.t2__p3100_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__n-21.t2__p3909_terminationG_0.smt2",
+   "status": "unsat",
+   "time_ms": 75.06660000035481,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__n-21.t2__p3984_terminationG_0.smt2",
+   "status": "unsat",
+   "time_ms": 413.5588999997708,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__n-32.t2__p4034_terminationG_0.smt2",
+   "status": "unsat",
+   "time_ms": 50.384199999825796,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__n-46.t2__p4411_terminationG_0.smt2",
+   "status": "unsat",
+   "time_ms": 156.24380000008387,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__n-48.t2__p4494_terminationG_0.smt2",
+   "status": "unsat",
+   "time_ms": 23.731300001600175,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__mc91test.t2__p3153_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__mc91test.t2__p3230_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__n-14.t2__p3535_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__n-6.t2__p4823_terminationG_0.smt2",
+   "status": "unsat",
+   "time_ms": 49.72449999877426,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__n-7.t2__p5044_terminationG_0.smt2",
+   "status": "unsat",
+   "time_ms": 80.46239999930549,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__n-7.t2__p5084_terminationG_0.smt2",
+   "status": "unsat",
+   "time_ms": 301.80420000033337,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__n-7.t2__p5094_terminationG_0.smt2",
+   "status": "unsat",
+   "time_ms": 277.1252000002278,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__n-5.t2_fixed__p4574_terminationG_0.smt2",
+   "status": "sat",
+   "time_ms": 3188.046499999473,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__n-5.t2__p4672_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__n-5.t2__p4682_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__n-7.t2__p5114_terminationG_0.smt2",
+   "status": "unsat",
+   "time_ms": 401.4599000001908,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__n-7.t2__p5101_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__n-9.t2__p5277_terminationG_0.smt2",
+   "status": "unsat",
+   "time_ms": 688.7432999992598,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__n_firewire_instrumented-PP.t2__terminationQ_0_0.smt2",
+   "status": "sat",
+   "time_ms": 177.24299999827053,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__n-7.t2__p5105_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__n-7.t2__p5150_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__nakata.t2__terminationS_5_0.smt2",
+   "status": "unsat",
+   "time_ms": 5608.901900001001,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__neg-acqrel-fail.t2__p5618_terminationG_0.smt2",
+   "status": "unsat",
+   "time_ms": 9.867299999314127,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__neg-e-acqrel-fail.t2__p6038_safety_0.smt2",
+   "status": "unsat",
+   "time_ms": 22.22780000010971,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__n-7.t2_fixed__p4929_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__n_firewire_instrumented-PP.t2__terminationQ_6_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__p-5.t2__p6866_edge_closing_0.smt2",
+   "status": "sat",
+   "time_ms": 779.4211999989784,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__ndes.t2_fixed__p5366_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__neg-st88b-fail.t2__p6140_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__p-43-terminate.t2_fixed__p6629_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__pgarch.t2_fixed__terminationS_14_0.smt2",
+   "status": "unsat",
+   "time_ms": 1720.2118999994127,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__pentagon.t2__p6991_edge_closing_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__polling.t2__term_unfeasibility_1_0.smt2",
+   "status": "unsat",
+   "time_ms": 2572.869100000389,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__polyrank2.t2__p7376_terminationG_0.smt2",
+   "status": "unsat",
+   "time_ms": 21.732700000939076,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__polyrank4.t2__p7501_terminationG_0.smt2",
+   "status": "sat",
+   "time_ms": 169.9869000003673,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__pentagon.t2__p7039_edge_closing_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__pentagon.t2__p7116_edge_closing_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__polling.t2_fixed__p7336_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__polyrank5.t2__p7555_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__refine_disj_problem.t2__p8549_terminationG_0.smt2",
+   "status": "unsat",
+   "time_ms": 2550.627500000701,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__rlft3.c.i.rlft3.pl.t2.fixed.t2__p8749_terminationG_0.smt2",
+   "status": "unsat",
+   "time_ms": 290.58269999950426,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__rlft3.c.i.rlft3.pl.t2.fixed.t2__p8772_terminationG_0.smt2",
+   "status": "unsat",
+   "time_ms": 378.2060999983514,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__ppblock.t2__p7745_edge_closing_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__ppblockterm.t2__p7897_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__rlft3.t2__p9014_terminationG_0.smt2",
+   "status": "unsat",
+   "time_ms": 915.8086999996158,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__randomwalk.t2__p8434_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__rlft3.c.i.rlft3.pl.t2.fixed.t2__p8793_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__rlft3.t2__term_unfeasibility_1_0.smt2",
+   "status": "unsat",
+   "time_ms": 51.21540000072855,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__rlft3.c.i.rlft3.pl.t2.fixed.t2__p8820_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__rlft3.t2__p9056_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__ruslan-benchmarks_misc_n-38.t2__p9195_terminationG_0.smt2",
+   "status": "sat",
+   "time_ms": 3884.758199999851,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__rlft3.t2__p9071_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__ruslan-benchmarks_misc_n-38.t2__p9205_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__s1-striped.t2__p12558_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__s1-striped.t2__p13318_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 1231.5144000003784,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__s1-striped.t2__p14356_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 291.0866999991413,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__s1-striped.t2_fixed__p10087_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 79.2697999986558,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__s1-striped.t2__p13157_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__s1-striped.t2_fixed__p10343_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 19.813700000668177,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__s1-striped.t2_fixed__p10570_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 201.55139999951643,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__s1-striped.t2_fixed__p10585_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 115.35579999872425,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__s1-striped.t2__p13209_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__s1-striped.t2_fixed__p11129_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 5728.532999999516,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__s1-striped.t2__p13497_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__s1-striped.t2_fixed__p10287_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__s1-striped.t2_fixed__p10802_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__s1.t2__p19423_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 242.84850000003644,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__s1.t2__p18828_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__s1.t2__p18964_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__s1.t2__p21091_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 37.28729999966163,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__s1.t2__p19377_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__s1.t2__p20575_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 2410.180999999284,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__s1.t2__p20179_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__s1.t2_fixed__p16626_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 259.11980000091717,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__s1.t2_fixed__p16652_safety_0.smt2",
+   "status": "unsat",
+   "time_ms": 116.05099999906088,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__s1.t2_fixed__p17630_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 76.88370000141731,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__slayer-3-filtered.t2__p21562_terminationG_0.smt2",
+   "status": "unsat",
+   "time_ms": 346.376199999213,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__s1.t2_fixed__p15164_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__s1.t2_fixed__p16158_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__s1.t2_fixed__p16510_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__slayer-3-filtered.t2__p21583_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__slayer-3-filtered.t2__p21609_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__slayer-3-filtered.t2__p21701_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__slayer-3-new.t2__p21888_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__slayer-3-new.t2_fixed__terminationS_37_0.smt2",
+   "status": "unsat",
+   "time_ms": 1210.3599999991275,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__slayer-3-new.t2__p21959_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__slayer-3.t2_fixed__terminationS_29_0.smt2",
+   "status": "unsat",
+   "time_ms": 1795.5427999986568,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__slayer-3.t2_fixed__terminationS_11_0.smt2",
+   "status": "unsat",
+   "time_ms": 2464.459100001477,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__slayer-4-filtered.t2__p22510_safety_0.smt2",
+   "status": "unsat",
+   "time_ms": 588.7755000003381,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__slayer-3.t2_fixed__terminationS_37_0.smt2",
+   "status": "unsat",
+   "time_ms": 1831.969000000754,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__slayer-5-filtered.t2__p22781_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 249.95119999948656,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__slayer-5-filtered.t2__p22848_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 128.40289999985544,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__slayer-n1.t2__p23149_terminationG_0.smt2",
+   "status": "sat",
+   "time_ms": 34.36629999850993,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__slayer-3-new.t2_fixed__p21802_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__slayer-3.t2__p22262_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__slayer-n1.t2_fixed__p23064_safety_0.smt2",
+   "status": "unsat",
+   "time_ms": 22.464199999376433,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__slayer-4-filtered.t2__p22587_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__slayer-n5-filtered.t2__p23397_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 77.67119999880379,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__small03.t2__p23517_terminationG_0.smt2",
+   "status": "unsat",
+   "time_ms": 9.28589999966789,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__small03.t2__p23528_terminationG_0.smt2",
+   "status": "unsat",
+   "time_ms": 84.97490000081598,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__small05.t2__p23595_terminationG_0.smt2",
+   "status": "unsat",
+   "time_ms": 22.968799999944167,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__slayer-n1.t2_fixed__p22977_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__small15.t2__p23750_terminationG_0.smt2",
+   "status": "unsat",
+   "time_ms": 44.16240000136895,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__slayer-n1.t2_fixed__p22986_safety_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__slayer-n2-filtered.t2__p23199_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__small10.t2__p23639_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__small35.t2__p24036_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__spiral.t2__p24121_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__streamserver-succeed.t2__p24601_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__streamserver-succeed.t2_fixed__terminationS_25_0.smt2",
+   "status": "unsat",
+   "time_ms": 447.8581999992457,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__streamserver-succeed.t2__p24746_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__streamserver-succeed.t2__p24752_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__streamserver-succeed.t2__p24821_edge_closing_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__svdcmp.c.i.svdcmp.pl.t2.fixed.t2__terminationS_16_0.smt2",
+   "status": "unsat",
+   "time_ms": 6576.807900000858,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__streamserver.bug.t2_fixed__p24564_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__svdcmp.c.i.svdcmp.pl.t2.fixed.t2__terminationS_30_0.smt2",
+   "status": "unsat",
+   "time_ms": 7332.889400000568,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__svdcmp.c.i.svdcmp.pl.t2.nor.t2.rlgfixed.t2__terminationS_19_0.smt2",
+   "status": "unsat",
+   "time_ms": 2633.0555000004097,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__tqli.t2_fixed__p25140_terminationG_0.smt2",
+   "status": "sat",
+   "time_ms": 2853.087100000266,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__tqli.c.i.tqli.pl.t2.nor.t2.rlgfixed.t2__terminationS_19_0.smt2",
+   "status": "unsat",
+   "time_ms": 4915.405299998383,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__svdcmp.c.i.svdcmp.pl.t2.fixed.t2__terminationS_51_0.smt2",
+   "status": "unsat",
+   "time_ms": 6642.740100000083,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__zlib-adler32.c.t2__p25921_safety_0.smt2",
+   "status": "unsat",
+   "time_ms": 566.5545000010752,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__zlib-adler32.c.t2__p26200_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 26.690599999710685,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__zlib-crc32-BYFOUR.c.t2__p26464_safety_0.smt2",
+   "status": "sat",
+   "time_ms": 124.67479999941133,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\SAT14\\1047.smt2",
+   "status": "sat",
+   "time_ms": 100.98070000094594,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\SAT14\\1112.smt2",
+   "status": "sat",
+   "time_ms": 27.19280000019353,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\SAT14\\1135.smt2",
+   "status": "sat",
+   "time_ms": 31.93269999974291,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\SAT14\\1142.smt2",
+   "status": "sat",
+   "time_ms": 35.80149999834248,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\SAT14\\1171.smt2",
+   "status": "sat",
+   "time_ms": 35.20419999949809,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\SAT14\\1206.smt2",
+   "status": "sat",
+   "time_ms": 46.64709999997285,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\SAT14\\1233.smt2",
+   "status": "sat",
+   "time_ms": 42.30909999932919,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\SAT14\\1249.smt2",
+   "status": "sat",
+   "time_ms": 480.27750000073866,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\SAT14\\1283.smt2",
+   "status": "sat",
+   "time_ms": 213.70789999855333,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\SAT14\\1377.smt2",
+   "status": "sat",
+   "time_ms": 58.475499999985914,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\SAT14\\1388.smt2",
+   "status": "sat",
+   "time_ms": 36.77450000031968,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\SAT14\\14.smt2",
+   "status": "unsat",
+   "time_ms": 18.408399999316316,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\SAT14\\1414.smt2",
+   "status": "sat",
+   "time_ms": 23.03809999830264,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\SAT14\\1435.smt2",
+   "status": "sat",
+   "time_ms": 26.359399998909794,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\SAT14\\1540.smt2",
+   "status": "sat",
+   "time_ms": 82.31510000041453,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__walk.t2__p25610_edge_closing_0.smt2",
+   "status": "sat",
+   "time_ms": 2320.9584999985964,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\SAT14\\157.smt2",
+   "status": "sat",
+   "time_ms": 20.474400000239257,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\SAT14\\1614.smt2",
+   "status": "sat",
+   "time_ms": 27.551600000151666,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\SAT14\\1631.smt2",
+   "status": "sat",
+   "time_ms": 28.418500000043423,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\SAT14\\1653.smt2",
+   "status": "sat",
+   "time_ms": 19.049900000027264,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\SAT14\\1728.smt2",
+   "status": "sat",
+   "time_ms": 34.8759999997128,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\SAT14\\1860.smt2",
+   "status": "sat",
+   "time_ms": 26.691199998822412,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\SAT14\\1906.smt2",
+   "status": "sat",
+   "time_ms": 19.73309999993944,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\SAT14\\1914.smt2",
+   "status": "sat",
+   "time_ms": 20.266800000172225,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\SAT14\\238.smt2",
+   "status": "sat",
+   "time_ms": 20.192100000713253,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\SAT14\\246.smt2",
+   "status": "sat",
+   "time_ms": 19.70210000035877,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\SAT14\\1813.smt2",
+   "status": "unsat",
+   "time_ms": 160.59730000051786,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\SAT14\\256.smt2",
+   "status": "sat",
+   "time_ms": 21.433199999592034,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\SAT14\\309.smt2",
+   "status": "sat",
+   "time_ms": 19.279600001027575,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\SAT14\\35.smt2",
+   "status": "sat",
+   "time_ms": 18.393399999695248,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\SAT14\\446.smt2",
+   "status": "sat",
+   "time_ms": 17.789400000765454,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\SAT14\\421.smt2",
+   "status": "sat",
+   "time_ms": 29.830499999661697,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\SAT14\\491.smt2",
+   "status": "sat",
+   "time_ms": 22.695900001053815,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\SAT14\\511.smt2",
+   "status": "sat",
+   "time_ms": 21.035600000686827,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\SAT14\\554.smt2",
+   "status": "sat",
+   "time_ms": 25.269800000387477,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\SAT14\\594.smt2",
+   "status": "unsat",
+   "time_ms": 24.060899999312824,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\SAT14\\607.smt2",
+   "status": "sat",
+   "time_ms": 23.950900000272668,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\SAT14\\619.smt2",
+   "status": "sat",
+   "time_ms": 27.783499999713968,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\SAT14\\646.smt2",
+   "status": "sat",
+   "time_ms": 33.135600000605336,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\SAT14\\602.smt2",
+   "status": "unsat",
+   "time_ms": 110.01589999978023,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\SAT14\\661.smt2",
+   "status": "sat",
+   "time_ms": 32.3458999991999,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\SAT14\\725.smt2",
+   "status": "sat",
+   "time_ms": 23.015400000076625,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\SAT14\\769.smt2",
+   "status": "sat",
+   "time_ms": 26.72100000017963,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\SAT14\\85.smt2",
+   "status": "sat",
+   "time_ms": 17.533000000184984,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\SAT14\\892.smt2",
+   "status": "sat",
+   "time_ms": 19.482600000628736,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\SAT14\\962.smt2",
+   "status": "sat",
+   "time_ms": 25.71889999853738,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\SAT14\\784.smt2",
+   "status": "sat",
+   "time_ms": 90.25240000119084,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\SAT14\\978.smt2",
+   "status": "sat",
+   "time_ms": 48.05400000077498,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\SAT14\\994.smt2",
+   "status": "sat",
+   "time_ms": 50.553600000057486,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\SAT14\\992.smt2",
+   "status": "sat",
+   "time_ms": 123.90250000134984,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20210219-Dartagnan\\ReachSafety-Loops\\array_4-O0.smt2",
+   "status": "unsat",
+   "time_ms": 1828.5176000008505,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20210219-Dartagnan\\ReachSafety-Loops\\geo1-u_valuebound1-O0.smt2",
+   "status": "unsat",
+   "time_ms": 25.869699999020668,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__walk.t2__p25599_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20210219-Dartagnan\\ReachSafety-Loops\\matrix-1-O0.smt2",
+   "status": "unsat",
+   "time_ms": 30.56030000152532,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20210219-Dartagnan\\ReachSafety-Loops\\sqrt1-ll_valuebound50-O0.smt2",
+   "status": "unsat",
+   "time_ms": 21.879899999476038,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20210219-Dartagnan\\ReachSafety-Loops\\hard-ll_valuebound5-O0.smt2",
+   "status": "unsat",
+   "time_ms": 3615.7751999999164,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20170427-VeryMax\\ITS\\From_T2__zeroconf.t2__p25774_terminationG_0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20210219-Dartagnan\\ConcurrencySafety-Main\\28-race_reach_45-escape_racing-O0.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20220315-MathProblems\\STC_0016.smt2",
+   "status": "sat",
+   "time_ms": 14.186300000801566,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20220315-MathProblems\\STC_0037.smt2",
+   "status": "sat",
+   "time_ms": 14.548700000887038,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20220315-MathProblems\\MC_04.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20220315-MathProblems\\STC_0056.smt2",
+   "status": "sat",
+   "time_ms": 4.820799998924485,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20220315-MathProblems\\RTA_099.smt2",
+   "status": "unknown",
+   "time_ms": 7752.172300000893,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20220315-MathProblems\\STC_0098.smt2",
+   "status": "sat",
+   "time_ms": 3.3310999988316325,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20220315-MathProblems\\MS_07.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20220315-MathProblems\\STC_0045.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20220315-MathProblems\\STC_0071.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20220315-MathProblems\\STC_0171.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20220315-MathProblems\\STC_0195.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20220315-MathProblems\\STC_0256.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20220315-MathProblems\\STC_0281.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20220315-MathProblems\\STC_0360.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20220315-MathProblems\\STC_0382.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20220315-MathProblems\\STC_0410.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20220315-MathProblems\\STC_0459.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20220315-MathProblems\\STC_0467.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20220315-MathProblems\\STC_0498.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20220315-MathProblems\\STC_0507.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20220315-MathProblems\\STC_0536.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20220315-MathProblems\\STC_0593.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20220315-MathProblems\\STC_0626.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20220315-MathProblems\\STC_0632.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20220315-MathProblems\\STC_0663.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20220315-MathProblems\\STC_0771.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20220315-MathProblems\\STC_0789.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20220315-MathProblems\\STC_0936.smt2",
+   "status": "sat",
+   "time_ms": 13.585900000180118,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20220315-MathProblems\\STC_0945.smt2",
+   "status": "sat",
+   "time_ms": 11.60859999981767,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20220315-MathProblems\\STC_0806.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20220315-MathProblems\\STC_0839.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20230328-sqrtmodinv-hoenicke\\sqrtStep5.smt2",
+   "status": "unsat",
+   "time_ms": 24.466799999572686,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT1273731352138297194.smt2",
+   "status": "sat",
+   "time_ms": 260.94149999880756,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20220315-MathProblems\\STC_0880.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT1321732654504728591.smt2",
+   "status": "sat",
+   "time_ms": 115.37139999927604,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20220315-MathProblems\\TA_08.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT1439199208732245123.smt2",
+   "status": "sat",
+   "time_ms": 28.686199999356177,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT1417634923349622301.smt2",
+   "status": "sat",
+   "time_ms": 763.406699999905,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\20230321-UltimateAutomizerSvcomp2023\\ps6.c_11.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT1696056098573172102.smt2",
+   "status": "sat",
+   "time_ms": 13.980699999592616,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT1696937418190827515.smt2",
+   "status": "sat",
+   "time_ms": 15.169700000114972,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT1757155135601557622.smt2",
+   "status": "sat",
+   "time_ms": 19.821800000499934,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT1909899370567820557.smt2",
+   "status": "sat",
+   "time_ms": 16.089199998532422,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT2311630272619652453.smt2",
+   "status": "sat",
+   "time_ms": 14.56549999966228,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT2322179511678559502.smt2",
+   "status": "sat",
+   "time_ms": 16.088100001070416,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT2409578890815829527.smt2",
+   "status": "sat",
+   "time_ms": 15.493000000788015,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT2430614908524774429.smt2",
+   "status": "sat",
+   "time_ms": 15.844499999730033,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT2636501751373060353.smt2",
+   "status": "sat",
+   "time_ms": 15.161799999987124,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT2925559576071147939.smt2",
+   "status": "sat",
+   "time_ms": 13.949899999715853,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT3015270802556460864.smt2",
+   "status": "sat",
+   "time_ms": 14.005199998791795,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT3024746602605626541.smt2",
+   "status": "sat",
+   "time_ms": 14.01120000082301,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT3078145553112270828.smt2",
+   "status": "sat",
+   "time_ms": 183.60799999936717,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT1296851730265535359.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT3306677380446705919.smt2",
+   "status": "sat",
+   "time_ms": 6.980799998927978,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT3326416242224032552.smt2",
+   "status": "sat",
+   "time_ms": 4.628799999409239,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT1666129670633360457.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT359820136277819026.smt2",
+   "status": "sat",
+   "time_ms": 16.564600000492646,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT3612851711724526218.smt2",
+   "status": "sat",
+   "time_ms": 20.242099999450147,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT3685922099119459830.smt2",
+   "status": "sat",
+   "time_ms": 10.072700000819168,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT3759789500011094774.smt2",
+   "status": "unsat",
+   "time_ms": 19.24959999996645,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT1683649971378713743.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT4259130309889079457.smt2",
+   "status": "sat",
+   "time_ms": 77.07639999898674,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT4553505495713257009.smt2",
+   "status": "sat",
+   "time_ms": 2.684499999304535,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT4636984771205011678.smt2",
+   "status": "sat",
+   "time_ms": 4.625300000043353,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT4758143464764004823.smt2",
+   "status": "sat",
+   "time_ms": 2.468399999997928,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT4798812222021332724.smt2",
+   "status": "sat",
+   "time_ms": 2.766500001598615,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT4880843025711816845.smt2",
+   "status": "sat",
+   "time_ms": 3.2969000003504334,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT3216048788972107323.smt2",
+   "status": "sat",
+   "time_ms": 8079.537800000253,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT5219933089216354552.smt2",
+   "status": "sat",
+   "time_ms": 16.52739999917685,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT5792017738524101266.smt2",
+   "status": "sat",
+   "time_ms": 17.95480000146199,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT6000637551111476481.smt2",
+   "status": "unsat",
+   "time_ms": 76.34759999928065,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT4051337037971059243.smt2",
+   "status": "unsat",
+   "time_ms": 3324.1080999996484,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT7176992615141976917.smt2",
+   "status": "sat",
+   "time_ms": 14.631500000177766,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT7189136236660616431.smt2",
+   "status": "unsat",
+   "time_ms": 23.306299999603652,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT7454102767909536610.smt2",
+   "status": "sat",
+   "time_ms": 21.181599999181344,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT759255174263994380.smt2",
+   "status": "sat",
+   "time_ms": 14.717900001414819,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT5055258264044640005.smt2",
+   "status": "unsat",
+   "time_ms": 7382.756400000289,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT82980353335522103.smt2",
+   "status": "sat",
+   "time_ms": 1286.8373000001156,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT8800023028084969026.smt2",
+   "status": "sat",
+   "time_ms": 3.7781999999424443,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT902782301342505505.smt2",
+   "status": "sat",
+   "time_ms": 89.99559999938356,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT3533739995171424168.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT9097540601625952396.smt2",
+   "status": "unsat",
+   "time_ms": 46.30630000065139,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT918824886423157086.smt2",
+   "status": "sat",
+   "time_ms": 52.43169999994279,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\LassoRanker\\PodelskiRybalchenko-LICS2004-Fig2-TACAS2011-Fig3_true-termination.c_Iteration9_Loop+nonterminationTemplate_0.smt2",
+   "status": "unsat",
+   "time_ms": 7.6551000001927605,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\LassoRanker\\Pure3Phase_true-termination.c_Iteration5_Loop+nonterminationTemplate_0.smt2",
+   "status": "unsat",
+   "time_ms": 18.618500000229687,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\UltimateAutomizer\\linear_sea.ch_true-unreach-call.i_162.smt2",
+   "status": "unsat",
+   "time_ms": 5.530700000235811,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\calypto\\problem-000003.cvc.1.smt2",
+   "status": "sat",
+   "time_ms": 6.281200001467369,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\calypto\\problem-000008.cvc.1.smt2",
+   "status": "sat",
+   "time_ms": 6.171799999719951,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\calypto\\problem-000012.cvc.2.smt2",
+   "status": "unsat",
+   "time_ms": 7.098199999745702,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\calypto\\problem-000157.cvc.2.smt2",
+   "status": "sat",
+   "time_ms": 8.950399998866487,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\calypto\\problem-001095.cvc.1.smt2",
+   "status": "unsat",
+   "time_ms": 6.336000000374042,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\calypto\\problem-001267.cvc.1.smt2",
+   "status": "sat",
+   "time_ms": 7.0797000007587485,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\calypto\\problem-005948.cvc.1.smt2",
+   "status": "sat",
+   "time_ms": 5.881600000066101,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\calypto\\problem-006544.cvc.1.smt2",
+   "status": "sat",
+   "time_ms": 11.847699999634642,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\leipzig\\term-3qaBfW.smt2",
+   "status": "sat",
+   "time_ms": 65.29959999897983,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT9209898785440985660.smt2",
+   "status": "sat",
+   "time_ms": 1179.3476000002556,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT6675789420246686041.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\AProVE\\aproveSMT8237557996763124921.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\leipzig\\term-X2tjiE.smt2",
+   "status": "sat",
+   "time_ms": 67.23439999950642,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\leipzig\\term-bEER96.smt2",
+   "status": "sat",
+   "time_ms": 22.896899999977904,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\leipzig\\term-qAUj8f.smt2",
+   "status": "sat",
+   "time_ms": 24.329199999556295,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\leipzig\\term-607QpU.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\leipzig\\term-7DXK1v.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\leipzig\\term-EcNqkB.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\leipzig\\term-tHV3De.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\mcm\\141.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\mcm\\159.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\mcm\\31.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\mcm\\40.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  },
+  {
+   "file": "E:\\Dev\\OpenExecution\\research\\projects\\z3-tactic-evolution\\data\\benchmarks\\QF_NIA\\non-incremental\\QF_NIA\\mcm\\84.smt2",
+   "status": "timeout",
+   "time_ms": 10000,
+   "error": ""
+  }
+ ]
+}

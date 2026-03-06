@@ -1,0 +1,61 @@
+{
+  "logic": "QF_NIA",
+  "timestamp": "2026-03-04T18:56:57",
+  "n_candidate_seeds": 15,
+  "k_selected": 4,
+  "n_hard_instances": 200,
+  "timeout_ms": 10000,
+  "candidate_seeds": [
+    0,
+    1,
+    7,
+    13,
+    42,
+    100,
+    137,
+    271,
+    314,
+    1000,
+    2023,
+    31415,
+    116751,
+    314159,
+    670500
+  ],
+  "seed_solve_counts": {
+    "0": 29,
+    "1": 23,
+    "7": 35,
+    "13": 24,
+    "42": 26,
+    "100": 27,
+    "137": 28,
+    "271": 32,
+    "314": 25,
+    "1000": 26,
+    "2023": 33,
+    "31415": 35,
+    "116751": 28,
+    "314159": 28,
+    "670500": 22
+  },
+  "selected_seeds": [
+    {
+      "seed": 7,
+      "marginal_gain": 35
+    },
+    {
+      "seed": 31415,
+      "marginal_gain": 15
+    },
+    {
+      "seed": 271,
+      "marginal_gain": 9
+    },
+    {
+      "seed": 42,
+      "marginal_gain": 4
+    }
+  ],
+  "total_coverage": 63
+}

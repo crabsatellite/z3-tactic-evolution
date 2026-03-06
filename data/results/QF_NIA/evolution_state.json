@@ -1,0 +1,80 @@
+{
+  "_note": "This file tracks the best ParOr (Track P, parallel) strategy found during evolution. The published Opt-NIA strategy uses a sequential OrElse portfolio (Track F, fair-compute) with optimized seeds [7, 31415, 271] — see PROTOCOL_FREEZE.md for the final strategy. Search trajectory reserved for companion paper on LLM-guided discovery.",
+  "logic": "QF_NIA",
+  "generation": 9,
+  "best_par2": 9714184.755100017,
+  "best_solved": 983,
+  "best_tactic_name": "four_seed_extended",
+  "best_tactic_expr": {
+    "type": "Then",
+    "children": [
+      {
+        "type": "With",
+        "tactic": "simplify",
+        "params": {
+          "som": true,
+          "pull_cheap_ite": true
+        }
+      },
+      {
+        "type": "tactic",
+        "name": "propagate-values"
+      },
+      {
+        "type": "tactic",
+        "name": "ctx-simplify"
+      },
+      {
+        "type": "tactic",
+        "name": "solve-eqs"
+      },
+      {
+        "type": "tactic",
+        "name": "elim-uncnstr"
+      },
+      {
+        "type": "tactic",
+        "name": "propagate-ineqs"
+      },
+      {
+        "type": "ParOr",
+        "children": [
+          {
+            "type": "With",
+            "tactic": "smt",
+            "params": {
+              "random_seed": 0
+            }
+          },
+          {
+            "type": "With",
+            "tactic": "smt",
+            "params": {
+              "random_seed": 42
+            }
+          },
+          {
+            "type": "With",
+            "tactic": "smt",
+            "params": {
+              "random_seed": 137
+            }
+          },
+          {
+            "type": "With",
+            "tactic": "smt",
+            "params": {
+              "random_seed": 314159
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "protocol_freeze_date": "2026-03-05",
+  "seeds_selected_by": "greedy_set_cover",
+  "seed_candidates": [0, 1, 7, 13, 42, 137, 271, 314, 997, 1337, 2718, 3141, 7919, 31415, 99991],
+  "seeds_selected": [7, 31415, 271],
+  "time_allocation": "7s / 2s / 1s (front-loaded)",
+  "last_updated": "2026-03-04T20:20:33"
+}

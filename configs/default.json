@@ -1,0 +1,33 @@
+{
+  "project": "z3-tactic-evolution",
+  "version": "0.1.0",
+
+  "benchmarks": {
+    "logics": ["QF_NIA"],
+    "primary_logic": "QF_NIA",
+    "source": "smtlib_zenodo",
+    "zenodo_record": "10607722",
+    "max_instances_per_logic": 2000,
+    "train_ratio": 0.7,
+    "test_ratio": 0.3
+  },
+
+  "evaluation": {
+    "timeout_ms": 10000,
+    "fast_filter_timeout_ms": 2000,
+    "par_factor": 2,
+    "max_workers": 4,
+    "memory_limit_mb": 4096,
+    "runs_per_candidate": 1,
+    "metrics": ["solved_count", "par2_score", "avg_time_ms", "median_time_ms"]
+  },
+
+  "paths": {
+    "benchmarks_dir": "data/benchmarks",
+    "candidates_dir": "data/candidates",
+    "results_dir": "data/results",
+    "baselines_dir": "data/baselines",
+    "logs_dir": "logs",
+    "analysis_dir": "analysis"
+  }
+}

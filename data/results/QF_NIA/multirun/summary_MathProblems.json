@@ -1,0 +1,395 @@
+{
+  "dataset": "MathProblems",
+  "config": {
+    "filelist": "data/benchmarks/QF_NIA_MathProblems/filelist_unseen.json",
+    "n_runs": 3,
+    "label": "MathProblems (math competition encodings)"
+  },
+  "n_files": 993,
+  "n_runs": 3,
+  "strategies": {
+    "Z3": {
+      "solved": {
+        "mean": 76.0,
+        "std": 1.73,
+        "min": 74,
+        "max": 77,
+        "ci_low": 71.7,
+        "ci_high": 80.3,
+        "n": 3
+      },
+      "par2": {
+        "mean": 18340169.3,
+        "std": 34641.97,
+        "min": 18320166.1,
+        "max": 18380170.4,
+        "ci_low": 18254106.93,
+        "ci_high": 18426231.67,
+        "n": 3
+      },
+      "runs": [
+        {
+          "strategy": "Z3",
+          "dataset": "MathProblems",
+          "block": 1,
+          "n_files": 993,
+          "solved": 77,
+          "total": 993,
+          "solve_rate": 7.75,
+          "par2": 18320166.1,
+          "avg_time_ms": 2.16,
+          "median_time_ms": 1.5,
+          "sat": 71,
+          "unsat": 6,
+          "timeout": 916,
+          "error": 0,
+          "start_time": "2026-03-06T00:09:57.920372",
+          "end_time": "2026-03-06T00:47:54.931868",
+          "duration_s": 2277.0,
+          "workers": 4
+        },
+        {
+          "strategy": "Z3",
+          "dataset": "MathProblems",
+          "block": 2,
+          "n_files": 993,
+          "solved": 77,
+          "total": 993,
+          "solve_rate": 7.75,
+          "par2": 18320171.4,
+          "avg_time_ms": 2.23,
+          "median_time_ms": 1.52,
+          "sat": 71,
+          "unsat": 6,
+          "timeout": 916,
+          "error": 0,
+          "start_time": "2026-03-06T10:29:04.724422",
+          "end_time": "2026-03-06T11:06:45.471985",
+          "duration_s": 2260.7,
+          "workers": 4
+        },
+        {
+          "strategy": "Z3",
+          "dataset": "MathProblems",
+          "block": 3,
+          "n_files": 993,
+          "solved": 74,
+          "total": 993,
+          "solve_rate": 7.45,
+          "par2": 18380170.4,
+          "avg_time_ms": 2.3,
+          "median_time_ms": 1.45,
+          "sat": 68,
+          "unsat": 6,
+          "timeout": 919,
+          "error": 0,
+          "start_time": "2026-03-06T15:13:00.116466",
+          "end_time": "2026-03-06T15:50:45.128917",
+          "duration_s": 2265.0,
+          "workers": 4
+        }
+      ]
+    },
+    "PP-base": {
+      "solved": {
+        "mean": 81.0,
+        "std": 2.65,
+        "min": 79,
+        "max": 84,
+        "ci_low": 74.43,
+        "ci_high": 87.57,
+        "n": 3
+      },
+      "par2": {
+        "mean": 18240192.33,
+        "std": 52867.04,
+        "min": 18180248.5,
+        "max": 18280163.1,
+        "ci_low": 18108852.72,
+        "ci_high": 18371531.95,
+        "n": 3
+      },
+      "runs": [
+        {
+          "strategy": "PP-base",
+          "dataset": "MathProblems",
+          "block": 1,
+          "n_files": 993,
+          "solved": 79,
+          "total": 993,
+          "solve_rate": 7.96,
+          "par2": 18280163.1,
+          "avg_time_ms": 2.06,
+          "median_time_ms": 1.58,
+          "sat": 73,
+          "unsat": 6,
+          "timeout": 914,
+          "error": 0,
+          "start_time": "2026-03-06T00:47:54.938121",
+          "end_time": "2026-03-06T01:25:53.560375",
+          "duration_s": 2278.6,
+          "workers": 4
+        },
+        {
+          "strategy": "PP-base",
+          "dataset": "MathProblems",
+          "block": 2,
+          "n_files": 993,
+          "solved": 80,
+          "total": 993,
+          "solve_rate": 8.06,
+          "par2": 18260165.4,
+          "avg_time_ms": 2.07,
+          "median_time_ms": 1.7,
+          "sat": 74,
+          "unsat": 6,
+          "timeout": 913,
+          "error": 0,
+          "start_time": "2026-03-06T13:13:07.001533",
+          "end_time": "2026-03-06T13:51:50.066226",
+          "duration_s": 2323.1,
+          "workers": 4
+        },
+        {
+          "strategy": "PP-base",
+          "dataset": "MathProblems",
+          "block": 3,
+          "n_files": 993,
+          "solved": 84,
+          "total": 993,
+          "solve_rate": 8.46,
+          "par2": 18180248.5,
+          "avg_time_ms": 2.96,
+          "median_time_ms": 1.96,
+          "sat": 78,
+          "unsat": 6,
+          "timeout": 909,
+          "error": 0,
+          "start_time": "2026-03-06T15:50:45.135636",
+          "end_time": "2026-03-06T16:34:18.296669",
+          "duration_s": 2613.2,
+          "workers": 4
+        }
+      ]
+    },
+    "PP-ext": {
+      "solved": {
+        "mean": 75.67,
+        "std": 1.15,
+        "min": 75,
+        "max": 77,
+        "ci_low": 72.8,
+        "ci_high": 78.54,
+        "n": 3
+      },
+      "par2": {
+        "mean": 18346832.93,
+        "std": 23087.66,
+        "min": 18320173.6,
+        "max": 18360163.3,
+        "ci_low": 18289475.38,
+        "ci_high": 18404190.49,
+        "n": 3
+      },
+      "runs": [
+        {
+          "strategy": "PP-ext",
+          "dataset": "MathProblems",
+          "block": 1,
+          "n_files": 993,
+          "solved": 75,
+          "total": 993,
+          "solve_rate": 7.55,
+          "par2": 18360161.9,
+          "avg_time_ms": 2.16,
+          "median_time_ms": 1.62,
+          "sat": 69,
+          "unsat": 6,
+          "timeout": 918,
+          "error": 0,
+          "start_time": "2026-03-06T08:24:48.995298",
+          "end_time": "2026-03-06T09:47:04.382425",
+          "duration_s": 4935.4,
+          "workers": 4
+        },
+        {
+          "strategy": "PP-ext",
+          "dataset": "MathProblems",
+          "block": 2,
+          "n_files": 993,
+          "solved": 75,
+          "total": 993,
+          "solve_rate": 7.55,
+          "par2": 18360163.3,
+          "avg_time_ms": 2.18,
+          "median_time_ms": 1.59,
+          "sat": 69,
+          "unsat": 6,
+          "timeout": 918,
+          "error": 0,
+          "start_time": "2026-03-06T11:50:38.165582",
+          "end_time": "2026-03-06T13:13:06.995466",
+          "duration_s": 4948.8,
+          "workers": 4
+        },
+        {
+          "strategy": "PP-ext",
+          "dataset": "MathProblems",
+          "block": 3,
+          "n_files": 993,
+          "solved": 77,
+          "total": 993,
+          "solve_rate": 7.75,
+          "par2": 18320173.6,
+          "avg_time_ms": 2.25,
+          "median_time_ms": 1.62,
+          "sat": 71,
+          "unsat": 6,
+          "timeout": 916,
+          "error": 0,
+          "start_time": "2026-03-06T13:51:50.072898",
+          "end_time": "2026-03-06T14:34:32.427774",
+          "duration_s": 2562.4,
+          "workers": 4
+        }
+      ]
+    },
+    "Opt-NIA": {
+      "solved": {
+        "mean": 113.0,
+        "std": 0.0,
+        "min": 113,
+        "max": 113,
+        "ci_low": 113.0,
+        "ci_high": 113.0,
+        "n": 3
+      },
+      "par2": {
+        "mean": 17995610.83,
+        "std": 55.19,
+        "min": 17995547.7,
+        "max": 17995649.9,
+        "ci_low": 17995473.73,
+        "ci_high": 17995747.94,
+        "n": 3
+      },
+      "runs": [
+        {
+          "strategy": "Opt-NIA",
+          "dataset": "MathProblems",
+          "block": 1,
+          "n_files": 993,
+          "solved": 113,
+          "total": 993,
+          "solve_rate": 11.38,
+          "par2": 17995547.7,
+          "avg_time_ms": 3500.42,
+          "median_time_ms": 37.31,
+          "sat": 107,
+          "unsat": 6,
+          "timeout": 880,
+          "error": 0,
+          "start_time": "2026-03-06T09:47:04.389585",
+          "end_time": "2026-03-06T10:29:04.715583",
+          "duration_s": 2520.3,
+          "workers": 4
+        },
+        {
+          "strategy": "Opt-NIA",
+          "dataset": "MathProblems",
+          "block": 2,
+          "n_files": 993,
+          "solved": 113,
+          "total": 993,
+          "solve_rate": 11.38,
+          "par2": 17995634.9,
+          "avg_time_ms": 3501.19,
+          "median_time_ms": 36.79,
+          "sat": 107,
+          "unsat": 6,
+          "timeout": 880,
+          "error": 0,
+          "start_time": "2026-03-06T11:06:45.478488",
+          "end_time": "2026-03-06T11:50:38.158147",
+          "duration_s": 2632.7,
+          "workers": 4
+        },
+        {
+          "strategy": "Opt-NIA",
+          "dataset": "MathProblems",
+          "block": 3,
+          "n_files": 993,
+          "solved": 113,
+          "total": 993,
+          "solve_rate": 11.38,
+          "par2": 17995649.9,
+          "avg_time_ms": 3501.33,
+          "median_time_ms": 37.1,
+          "sat": 107,
+          "unsat": 6,
+          "timeout": 880,
+          "error": 0,
+          "start_time": "2026-03-06T14:34:32.434093",
+          "end_time": "2026-03-06T15:13:00.109779",
+          "duration_s": 2307.7,
+          "workers": 4
+        }
+      ]
+    }
+  },
+  "mcnemar": [
+    {
+      "a": 58,
+      "b": 55,
+      "c": 19,
+      "d": 861,
+      "chi2": 16.5541,
+      "p_value": 4.7e-05,
+      "block": 1
+    },
+    {
+      "a": 58,
+      "b": 55,
+      "c": 19,
+      "d": 861,
+      "chi2": 16.5541,
+      "p_value": 4.7e-05,
+      "block": 2
+    },
+    {
+      "a": 57,
+      "b": 56,
+      "c": 17,
+      "d": 863,
+      "chi2": 19.7808,
+      "p_value": 9e-06,
+      "block": 3
+    }
+  ],
+  "improvement": {
+    "instances": {
+      "mean": 37.0,
+      "std": 1.73,
+      "min": 36,
+      "max": 39,
+      "ci_low": 32.7,
+      "ci_high": 41.3,
+      "n": 3
+    },
+    "percentage_points": {
+      "mean": 3.73,
+      "std": 0.17,
+      "min": 3.625377643504532,
+      "max": 3.927492447129909,
+      "ci_low": 3.29,
+      "ci_high": 4.16,
+      "n": 3
+    },
+    "all_positive": true,
+    "deltas": [
+      36,
+      36,
+      39
+    ]
+  }
+}

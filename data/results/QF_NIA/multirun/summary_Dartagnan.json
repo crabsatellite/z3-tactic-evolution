@@ -1,0 +1,395 @@
+{
+  "dataset": "Dartagnan",
+  "config": {
+    "filelist": "data/benchmarks/QF_NIA_Dartagnan/filelist_unseen.json",
+    "n_runs": 3,
+    "label": "Dartagnan (memory model verification)"
+  },
+  "n_files": 341,
+  "n_runs": 3,
+  "strategies": {
+    "Z3": {
+      "solved": {
+        "mean": 317.33,
+        "std": 1.53,
+        "min": 316,
+        "max": 319,
+        "ci_low": 313.54,
+        "ci_high": 321.13,
+        "n": 3
+      },
+      "par2": {
+        "mean": 634003.07,
+        "std": 28798.0,
+        "min": 613858.4,
+        "max": 666987.6,
+        "ci_low": 562459.1,
+        "ci_high": 705547.03,
+        "n": 3
+      },
+      "runs": [
+        {
+          "strategy": "Z3",
+          "dataset": "Dartagnan",
+          "block": 1,
+          "n_files": 341,
+          "solved": 316,
+          "total": 341,
+          "solve_rate": 92.67,
+          "par2": 666987.6,
+          "avg_time_ms": 528.44,
+          "median_time_ms": 69.27,
+          "sat": 7,
+          "unsat": 309,
+          "timeout": 25,
+          "error": 0,
+          "start_time": "2026-03-06T16:35:00.485952",
+          "end_time": "2026-03-06T16:37:02.539772",
+          "duration_s": 122.1,
+          "workers": 4
+        },
+        {
+          "strategy": "Z3",
+          "dataset": "Dartagnan",
+          "block": 2,
+          "n_files": 341,
+          "solved": 319,
+          "total": 341,
+          "solve_rate": 93.55,
+          "par2": 621163.2,
+          "avg_time_ms": 567.91,
+          "median_time_ms": 71.79,
+          "sat": 8,
+          "unsat": 311,
+          "timeout": 22,
+          "error": 0,
+          "start_time": "2026-03-06T16:41:21.008149",
+          "end_time": "2026-03-06T16:43:18.767458",
+          "duration_s": 117.8,
+          "workers": 4
+        },
+        {
+          "strategy": "Z3",
+          "dataset": "Dartagnan",
+          "block": 3,
+          "n_files": 341,
+          "solved": 317,
+          "total": 341,
+          "solve_rate": 92.96,
+          "par2": 613858.4,
+          "avg_time_ms": 422.27,
+          "median_time_ms": 56.68,
+          "sat": 7,
+          "unsat": 310,
+          "timeout": 24,
+          "error": 0,
+          "start_time": "2026-03-06T16:49:57.671228",
+          "end_time": "2026-03-06T16:51:44.850466",
+          "duration_s": 107.2,
+          "workers": 4
+        }
+      ]
+    },
+    "PP-base": {
+      "solved": {
+        "mean": 327.0,
+        "std": 1.0,
+        "min": 326,
+        "max": 328,
+        "ci_low": 324.52,
+        "ci_high": 329.48,
+        "n": 3
+      },
+      "par2": {
+        "mean": 444033.07,
+        "std": 11452.97,
+        "min": 430855.5,
+        "max": 451588.5,
+        "ci_low": 415580.01,
+        "ci_high": 472486.13,
+        "n": 3
+      },
+      "runs": [
+        {
+          "strategy": "PP-base",
+          "dataset": "Dartagnan",
+          "block": 1,
+          "n_files": 341,
+          "solved": 327,
+          "total": 341,
+          "solve_rate": 95.89,
+          "par2": 451588.5,
+          "avg_time_ms": 524.74,
+          "median_time_ms": 112.02,
+          "sat": 8,
+          "unsat": 319,
+          "timeout": 14,
+          "error": 0,
+          "start_time": "2026-03-06T16:37:02.548208",
+          "end_time": "2026-03-06T16:38:29.449932",
+          "duration_s": 86.9,
+          "workers": 4
+        },
+        {
+          "strategy": "PP-base",
+          "dataset": "Dartagnan",
+          "block": 2,
+          "n_files": 341,
+          "solved": 326,
+          "total": 341,
+          "solve_rate": 95.6,
+          "par2": 449655.2,
+          "avg_time_ms": 459.06,
+          "median_time_ms": 100.97,
+          "sat": 8,
+          "unsat": 318,
+          "timeout": 15,
+          "error": 0,
+          "start_time": "2026-03-06T16:46:05.510402",
+          "end_time": "2026-03-06T16:47:29.006113",
+          "duration_s": 83.5,
+          "workers": 4
+        },
+        {
+          "strategy": "PP-base",
+          "dataset": "Dartagnan",
+          "block": 3,
+          "n_files": 341,
+          "solved": 328,
+          "total": 341,
+          "solve_rate": 96.19,
+          "par2": 430855.5,
+          "avg_time_ms": 520.9,
+          "median_time_ms": 109.5,
+          "sat": 8,
+          "unsat": 320,
+          "timeout": 13,
+          "error": 0,
+          "start_time": "2026-03-06T16:51:44.862038",
+          "end_time": "2026-03-06T16:53:07.909226",
+          "duration_s": 83.0,
+          "workers": 4
+        }
+      ]
+    },
+    "PP-ext": {
+      "solved": {
+        "mean": 327.67,
+        "std": 1.15,
+        "min": 327,
+        "max": 329,
+        "ci_low": 324.8,
+        "ci_high": 330.54,
+        "n": 3
+      },
+      "par2": {
+        "mean": 432997.37,
+        "std": 18117.63,
+        "min": 412089.4,
+        "max": 444076.7,
+        "ci_low": 387987.06,
+        "ci_high": 478007.68,
+        "n": 3
+      },
+      "runs": [
+        {
+          "strategy": "PP-ext",
+          "dataset": "Dartagnan",
+          "block": 1,
+          "n_files": 341,
+          "solved": 327,
+          "total": 341,
+          "solve_rate": 95.89,
+          "par2": 444076.7,
+          "avg_time_ms": 501.76,
+          "median_time_ms": 127.88,
+          "sat": 9,
+          "unsat": 318,
+          "timeout": 14,
+          "error": 0,
+          "start_time": "2026-03-06T16:38:29.461269",
+          "end_time": "2026-03-06T16:39:55.955795",
+          "duration_s": 86.5,
+          "workers": 4
+        },
+        {
+          "strategy": "PP-ext",
+          "dataset": "Dartagnan",
+          "block": 2,
+          "n_files": 341,
+          "solved": 329,
+          "total": 341,
+          "solve_rate": 96.48,
+          "par2": 412089.4,
+          "avg_time_ms": 523.07,
+          "median_time_ms": 114.7,
+          "sat": 9,
+          "unsat": 320,
+          "timeout": 12,
+          "error": 0,
+          "start_time": "2026-03-06T16:44:42.514446",
+          "end_time": "2026-03-06T16:46:05.501313",
+          "duration_s": 83.0,
+          "workers": 4
+        },
+        {
+          "strategy": "PP-ext",
+          "dataset": "Dartagnan",
+          "block": 3,
+          "n_files": 341,
+          "solved": 327,
+          "total": 341,
+          "solve_rate": 95.89,
+          "par2": 442826.0,
+          "avg_time_ms": 497.94,
+          "median_time_ms": 138.35,
+          "sat": 9,
+          "unsat": 318,
+          "timeout": 14,
+          "error": 0,
+          "start_time": "2026-03-06T16:47:29.017013",
+          "end_time": "2026-03-06T16:48:57.017297",
+          "duration_s": 88.0,
+          "workers": 4
+        }
+      ]
+    },
+    "Opt-NIA": {
+      "solved": {
+        "mean": 328.67,
+        "std": 2.89,
+        "min": 327,
+        "max": 332,
+        "ci_low": 321.5,
+        "ci_high": 335.84,
+        "n": 3
+      },
+      "par2": {
+        "mean": 390286.13,
+        "std": 79707.42,
+        "min": 298325.8,
+        "max": 439544.3,
+        "ci_low": 192265.95,
+        "ci_high": 588306.32,
+        "n": 3
+      },
+      "runs": [
+        {
+          "strategy": "Opt-NIA",
+          "dataset": "Dartagnan",
+          "block": 1,
+          "n_files": 341,
+          "solved": 327,
+          "total": 341,
+          "solve_rate": 95.89,
+          "par2": 439544.3,
+          "avg_time_ms": 487.9,
+          "median_time_ms": 131.5,
+          "sat": 9,
+          "unsat": 318,
+          "timeout": 14,
+          "error": 0,
+          "start_time": "2026-03-06T16:39:55.959073",
+          "end_time": "2026-03-06T16:41:20.998447",
+          "duration_s": 85.0,
+          "workers": 4
+        },
+        {
+          "strategy": "Opt-NIA",
+          "dataset": "Dartagnan",
+          "block": 2,
+          "n_files": 341,
+          "solved": 327,
+          "total": 341,
+          "solve_rate": 95.89,
+          "par2": 432988.3,
+          "avg_time_ms": 467.85,
+          "median_time_ms": 142.42,
+          "sat": 9,
+          "unsat": 318,
+          "timeout": 14,
+          "error": 0,
+          "start_time": "2026-03-06T16:43:18.777723",
+          "end_time": "2026-03-06T16:44:42.507696",
+          "duration_s": 83.7,
+          "workers": 4
+        },
+        {
+          "strategy": "Opt-NIA",
+          "dataset": "Dartagnan",
+          "block": 3,
+          "n_files": 341,
+          "solved": 332,
+          "total": 341,
+          "solve_rate": 97.36,
+          "par2": 298325.8,
+          "avg_time_ms": 356.4,
+          "median_time_ms": 64.63,
+          "sat": 9,
+          "unsat": 323,
+          "timeout": 9,
+          "error": 0,
+          "start_time": "2026-03-06T16:48:57.030855",
+          "end_time": "2026-03-06T16:49:57.667055",
+          "duration_s": 60.6,
+          "workers": 4
+        }
+      ]
+    }
+  },
+  "mcnemar": [
+    {
+      "a": 316,
+      "b": 11,
+      "c": 0,
+      "d": 14,
+      "chi2": 9.0909,
+      "p_value": 0.002569,
+      "block": 1
+    },
+    {
+      "a": 319,
+      "b": 8,
+      "c": 0,
+      "d": 14,
+      "chi2": 6.125,
+      "p_value": 0.013328,
+      "block": 2
+    },
+    {
+      "a": 317,
+      "b": 15,
+      "c": 0,
+      "d": 9,
+      "chi2": 13.0667,
+      "p_value": 0.000301,
+      "block": 3
+    }
+  ],
+  "improvement": {
+    "instances": {
+      "mean": 11.33,
+      "std": 3.51,
+      "min": 8,
+      "max": 15,
+      "ci_low": 2.61,
+      "ci_high": 20.06,
+      "n": 3
+    },
+    "percentage_points": {
+      "mean": 3.32,
+      "std": 1.03,
+      "min": 2.346041055718475,
+      "max": 4.398826979472141,
+      "ci_low": 0.76,
+      "ci_high": 5.88,
+      "n": 3
+    },
+    "all_positive": true,
+    "deltas": [
+      11,
+      8,
+      15
+    ]
+  }
+}

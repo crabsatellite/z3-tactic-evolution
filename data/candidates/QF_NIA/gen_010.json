@@ -1,0 +1,48 @@
+{
+  "generation": 10,
+  "note": "Validation-Locked evaluation: top strategies from evolution",
+  "candidates": {
+    "z3_default": {
+      "type": "tactic",
+      "name": "smt"
+    },
+    "aggressive_preprocess": {
+      "type": "Then",
+      "children": [
+        {"type": "With", "tactic": "simplify", "params": {"som": true, "pull_cheap_ite": true}},
+        {"type": "tactic", "name": "propagate-values"},
+        {"type": "tactic", "name": "solve-eqs"},
+        {"type": "tactic", "name": "elim-uncnstr"},
+        {"type": "tactic", "name": "smt"}
+      ]
+    },
+    "opt_7_2_1_final": {
+      "type": "Then",
+      "children": [
+        {"type": "With", "tactic": "simplify", "params": {"som": true, "pull_cheap_ite": true}},
+        {"type": "tactic", "name": "propagate-values"},
+        {"type": "tactic", "name": "ctx-simplify"},
+        {"type": "tactic", "name": "solve-eqs"},
+        {"type": "tactic", "name": "elim-uncnstr"},
+        {"type": "tactic", "name": "propagate-ineqs"},
+        {"type": "OrElse", "children": [
+          {"type": "TryFor", "timeout": 7000, "child": {"type": "With", "tactic": "smt", "params": {"random_seed": 7}}},
+          {"type": "TryFor", "timeout": 2000, "child": {"type": "With", "tactic": "smt", "params": {"random_seed": 31415}}},
+          {"type": "With", "tactic": "smt", "params": {"random_seed": 271}}
+        ]}
+      ]
+    },
+    "preprocess_single": {
+      "type": "Then",
+      "children": [
+        {"type": "With", "tactic": "simplify", "params": {"som": true, "pull_cheap_ite": true}},
+        {"type": "tactic", "name": "propagate-values"},
+        {"type": "tactic", "name": "ctx-simplify"},
+        {"type": "tactic", "name": "solve-eqs"},
+        {"type": "tactic", "name": "elim-uncnstr"},
+        {"type": "tactic", "name": "propagate-ineqs"},
+        {"type": "tactic", "name": "smt"}
+      ]
+    }
+  }
+}

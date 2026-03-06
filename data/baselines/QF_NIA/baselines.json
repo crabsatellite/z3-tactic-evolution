@@ -1,0 +1,170 @@
+{
+  "logic": "QF_NIA",
+  "timestamp": "2026-03-04T11:45:19",
+  "train_count": 1400,
+  "timeout_ms": 10000,
+  "results": [
+    {
+      "name": "aggressive_preprocess",
+      "tactic_expr": {
+        "type": "Then",
+        "children": [
+          {
+            "type": "With",
+            "tactic": "simplify",
+            "params": {
+              "som": true,
+              "pull_cheap_ite": true
+            }
+          },
+          {
+            "type": "tactic",
+            "name": "propagate-values"
+          },
+          {
+            "type": "tactic",
+            "name": "solve-eqs"
+          },
+          {
+            "type": "tactic",
+            "name": "elim-uncnstr"
+          },
+          {
+            "type": "tactic",
+            "name": "smt"
+          }
+        ]
+      },
+      "tactic_str": "Then(With(simplify, som=True, pull_cheap_ite=True), propagate-values, solve-eqs, elim-uncnstr, smt)",
+      "solved_count": 916,
+      "total_count": 1400,
+      "par2_score": 10768864.6,
+      "avg_time_ms": 1188.72,
+      "median_time_ms": 250.12,
+      "sat_count": 568,
+      "unsat_count": 348,
+      "timeout_count": 484,
+      "error_count": 0
+    },
+    {
+      "name": "simplify_then_smt",
+      "tactic_expr": {
+        "type": "Then",
+        "children": [
+          {
+            "type": "tactic",
+            "name": "simplify"
+          },
+          {
+            "type": "tactic",
+            "name": "solve-eqs"
+          },
+          {
+            "type": "tactic",
+            "name": "smt"
+          }
+        ]
+      },
+      "tactic_str": "Then(simplify, solve-eqs, smt)",
+      "solved_count": 911,
+      "total_count": 1400,
+      "par2_score": 10944846.5,
+      "avg_time_ms": 1278.65,
+      "median_time_ms": 245.46,
+      "sat_count": 567,
+      "unsat_count": 344,
+      "timeout_count": 489,
+      "error_count": 0
+    },
+    {
+      "name": "z3_default",
+      "tactic_expr": {
+        "type": "tactic",
+        "name": "smt"
+      },
+      "tactic_str": "smt",
+      "solved_count": 899,
+      "total_count": 1400,
+      "par2_score": 11164223.6,
+      "avg_time_ms": 1272.77,
+      "median_time_ms": 238.85,
+      "sat_count": 567,
+      "unsat_count": 332,
+      "timeout_count": 501,
+      "error_count": 0
+    },
+    {
+      "name": "conditional_by_logic",
+      "tactic_expr": {
+        "type": "Cond",
+        "probe": "is-qfnia",
+        "then": {
+          "type": "tactic",
+          "name": "qfnia"
+        },
+        "else": {
+          "type": "Then",
+          "children": [
+            {
+              "type": "tactic",
+              "name": "simplify"
+            },
+            {
+              "type": "tactic",
+              "name": "smt"
+            }
+          ]
+        }
+      },
+      "tactic_str": "Cond(is-qfnia, qfnia, Then(simplify, smt))",
+      "solved_count": 897,
+      "total_count": 1400,
+      "par2_score": 11271000.1,
+      "avg_time_ms": 1350.06,
+      "median_time_ms": 262.42,
+      "sat_count": 589,
+      "unsat_count": 308,
+      "timeout_count": 503,
+      "error_count": 0
+    },
+    {
+      "name": "try_builtin_then_fallback",
+      "tactic_expr": {
+        "type": "OrElse",
+        "children": [
+          {
+            "type": "TryFor",
+            "child": {
+              "type": "tactic",
+              "name": "qfnia"
+            },
+            "timeout": 5000
+          },
+          {
+            "type": "Then",
+            "children": [
+              {
+                "type": "tactic",
+                "name": "simplify"
+              },
+              {
+                "type": "tactic",
+                "name": "smt"
+              }
+            ]
+          }
+        ]
+      },
+      "tactic_str": "OrElse(TryFor(qfnia, 5000), Then(simplify, smt))",
+      "solved_count": 896,
+      "total_count": 1400,
+      "par2_score": 11161302.2,
+      "avg_time_ms": 1206.81,
+      "median_time_ms": 240.28,
+      "sat_count": 591,
+      "unsat_count": 305,
+      "timeout_count": 504,
+      "error_count": 0
+    }
+  ]
+}

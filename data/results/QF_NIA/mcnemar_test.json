@@ -1,0 +1,14 @@
+{
+  "test": "McNemar",
+  "strategy_A": "opt_7_2_1_final",
+  "strategy_B": "z3_default",
+  "n_instances": 600,
+  "contingency": {
+    "both_solved": 331,
+    "only_A_solved": 47,
+    "only_B_solved": 28,
+    "neither_solved": 194
+  },
+  "chi2_cc": 4.32,
+  "chi2_no_cc": 4.8133333333333335
+}

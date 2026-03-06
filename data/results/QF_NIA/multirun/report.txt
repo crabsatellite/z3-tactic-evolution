@@ -1,0 +1,80 @@
+======================================================================
+  MULTI-RUN EVALUATION REPORT
+  Generated: 2026-03-05T23:49:49.480665
+  Duration: 2.4 hours
+  Workers: 4 | Timeout: 10000ms
+======================================================================
+
+==================================================
+  Test (600 files, 5 runs)
+==================================================
+
+  Strategy     Solved (mean +/- std)    95% CI               PAR-2 (mean)  
+  ------------ ------------------------ -------------------- --------------
+  Z3            378.8 +/- 2.3            [376.0, 381.6]          4,839,891
+  PP-base       376.2 +/- 3.4            [372.1, 380.4]          4,868,721
+  PP-ext        377.0 +/- 6.5            [368.9, 385.1]          4,843,226
+  Opt-NIA       392.0 +/- 5.6            [385.0, 399.0]          4,666,812
+
+  Improvement (Opt-NIA vs Z3):
+    Instances: +13.2 +/- 6.3 [5.3, 21.1]
+    Percentage points: +2.2pp [0.9, 3.5]
+    All runs positive: True
+
+  McNemar's Test (Opt-NIA vs Z3):
+    Mean chi2: 2.88
+    p-value range: [0.0161, 0.4701]
+    Significant runs (p<0.05): 2/5
+
+==================================================
+  Validation (400 files, 5 runs)
+==================================================
+
+  Strategy     Solved (mean +/- std)    95% CI               PAR-2 (mean)  
+  ------------ ------------------------ -------------------- --------------
+  Z3            249.4 +/- 5.7            [242.3, 256.5]          3,267,920
+  PP-base       255.6 +/- 6.5            [247.5, 263.7]          3,143,970
+  PP-ext        256.0 +/- 4.4            [250.6, 261.4]          3,123,483
+  Opt-NIA       266.6 +/- 4.2            [261.4, 271.8]          3,010,071
+
+  Improvement (Opt-NIA vs Z3):
+    Instances: +17.2 +/- 6.0 [9.7, 24.7]
+    Percentage points: +4.3pp [2.4, 6.2]
+    All runs positive: True
+
+  McNemar's Test (Opt-NIA vs Z3):
+    Mean chi2: 6.16
+    p-value range: [0.0008, 0.2330]
+    Significant runs (p<0.05): 3/5
+
+==================================================
+  AProVE (2409 files, 3 runs)
+==================================================
+
+  Strategy     Solved (mean +/- std)    95% CI               PAR-2 (mean)  
+  ------------ ------------------------ -------------------- --------------
+  Z3           2132.3 +/- 6.0            [2117.4, 2147.3]          6,468,649
+  PP-base      2135.3 +/- 12.4           [2104.5, 2166.2]          6,482,797
+  PP-ext       2124.0 +/- 11.5           [2095.3, 2152.7]          6,654,252
+  Opt-NIA      2151.7 +/- 1.5            [2147.9, 2155.5]          6,339,237
+
+  Improvement (Opt-NIA vs Z3):
+    Instances: +19.3 +/- 6.8 [2.4, 36.2]
+    Percentage points: +0.8pp [0.1, 1.5]
+    All runs positive: True
+
+  McNemar's Test (Opt-NIA vs Z3):
+    Mean chi2: 2.71
+    p-value range: [0.0231, 0.2614]
+    Significant runs (p<0.05): 1/3
+
+==================================================
+  VALIDITY ASSESSMENT
+==================================================
+  Test: mean improvement > 0 and CI excludes 0: PASS
+  Validation: mean improvement > 0 and CI excludes 0: PASS
+  AProVE: mean improvement > 0 and CI excludes 0: PASS
+  Test: McNemar p<0.05 in majority of runs: FAIL (2/5)
+  Validation: McNemar p<0.05 in majority of runs: PASS (3/5)
+
+  OVERALL: SOME CHECKS FAILED
