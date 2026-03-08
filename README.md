@@ -83,6 +83,10 @@ Available from the SMT-LIB 2023 release on Zenodo:
 - 4+ CPU cores recommended
 - ~10 GB disk space for benchmarks
 
+## Paper
+
+[![Zenodo](https://img.shields.io/badge/DOI-10.5281/zenodo.18909825-blue?style=flat-square&logo=zenodo)](https://doi.org/10.5281/zenodo.18909825)
+
 ## Citation
 
 ```bibtex
@@ -91,7 +95,8 @@ Available from the SMT-LIB 2023 release on Zenodo:
   title     = {Preprocessing, Seeds, and Time:
                {A} Simple Sequential Portfolio for {QF\_NIA}},
   year      = {2026},
-  note      = {Preprint}
+  doi       = {10.5281/zenodo.18909825},
+  note      = {Preprint, Zenodo}
 }
 ```
 
