@@ -85,8 +85,10 @@ Available from the SMT-LIB 2023 release on Zenodo:
 
 ## Paper
 
-[![Zenodo](https://img.shields.io/badge/DOI-10.5281/zenodo.18909825-blue?style=flat-square&logo=zenodo)](https://doi.org/10.5281/zenodo.18909825)
+*Preprocessing, Seeds, and Time: A Simple Sequential Portfolio for QF_NIA*
+Alex Chengyu Li, 2026
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18909825.svg)](https://doi.org/10.5281/zenodo.18909825)
 ## Citation
 
 ```bibtex
